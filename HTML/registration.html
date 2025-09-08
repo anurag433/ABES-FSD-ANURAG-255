@@ -1,0 +1,87 @@
+<!-- full Name
+Email
+Password & confirm Password
+gender(Radio Button)
+Hobbie(Checkboxes)
+Course
+Address(TextArea)
+submit & Reset Buttons -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body style="background-color: antiquewhite;">
+    <marquee scrollamount="20"><h1 align="center">STUDENT REGISTRATION FORM</h1></marquee>
+    <form>
+    <table  border="9" width="40%" cellpadding="10" cellspacing="0" align="center">
+        <tr style="background-color: rgb(206, 190, 170);">
+            <th>Full Name:</th>
+            <td><input type="text" placeholder="Enter your full name"></td>
+        </tr>
+        <tr style="background-color: rgb(162, 181, 204);">
+            <th >Email:</th>
+            <td><input type="Email " placeholder="Enter you email id"></td>
+        </tr>
+        <tr style="background-color: rgb(226, 198, 226);">
+            <th>Password</th>
+            <td><input type="password"></td>
+        </tr>
+        
+        <tr style="background-color: rgb(187, 228, 231);">
+            <th>Select your gender</th>
+            <td>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                
+
+            </td>
+        </tr >
+        <tr style="background-color: rgb(160, 231, 187);">
+            <th>Hobbie</th>
+            <td>
+                <input type="checkbox" id="read">
+                <label for="red">Reading</label><br>
+                <input type="checkbox" id="=playing">
+                <label for="Playing">Playing</label><br>
+            </td>
+        </tr>
+        <tr style="background-color: rgb(219, 163, 163);">
+            <th>Course</th>
+            <td>
+                
+                <input type="radio" id="btech" name="course" value="B.tech">
+                <label for="btech">B.tech</label><br>
+                <input type="radio" id="bca" name="course" value="BCA">
+                <label for="bca">BCA</label><br>
+                <input type="radio" id="bsc" name="course" value="BSC">
+                <label for="bsc">BSC</label><br>
+                <input type="radio" id="ba" name="course" value="BA">
+                <label for="ba">BA</label><br>
+                
+            </td>
+        </tr>
+        <tr style="background-color: rgb(220, 236, 124);">
+            <th>Address:</th>
+            <td><textarea id="message" name="message" rows="6" cols="40"></textarea><br>
+                <input type="submit" value="Send"><BR></td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+               <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+
+    </table></form>
+    
+    
+
+</body>
+</html  >

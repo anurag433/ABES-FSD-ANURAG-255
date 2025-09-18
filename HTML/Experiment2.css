@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    border: 1px solid black;
+}
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+th {
+    background-color: #34495e;
+    color: white;
+    font-size: 18px;
+}
+tr:nth-child(2) td {
+    background-color: #eaecee;
+    font-weight: bold;
+}
+td:first-child {
+    text-align: left;
+    font-weight: bold;
+    background-color: #f8f9f9;
+    padding-left: 15px;
+}
+td[colspan="4"] {
+    font-size: 16px;
+    color: #333;
+}
+form p {
+    margin: 10px 0;
+}
+input, button {
+    padding: 5px;
+    margin-left: 5px;
+}
